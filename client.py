@@ -14,7 +14,7 @@ def Main():
                     rate=RATE, input=True,
                     frames_per_buffer=CHUNK)
         #IP adress of host and port number
-        host = '192.168.10.8' #Host IP similiar to server IP
+        host = '192.***.**.*' #Host IP similiar to server IP
         port = 8081           #Port Number similiar to server IP
         s = socket.socket()   #Connection
         s.connect((host, port))
