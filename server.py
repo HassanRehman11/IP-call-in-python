@@ -3,7 +3,7 @@ import pyaudio
 
 def Main():
     #Host IP
-    host = '192.168.10.8'
+    host = '192.***.**.*'
     #Port Number
     port = 8081
     FORMAT = pyaudio.paInt16
